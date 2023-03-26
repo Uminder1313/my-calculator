@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:ital@1&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    
+}
+body{
+    background: url(./images/maths2.jpg);
+    background-size: cover;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(255, 225, 0);
+}
+
+.row button:hover{
+    background-color: purple;
+}
+
+.row{
+    margin: 8px 0;
+}
+.row input{
+    
+    width: 291px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
